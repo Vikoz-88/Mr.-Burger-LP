@@ -77,35 +77,40 @@ a {
   overflow: hidden; }
 
 .wrapper {
-  width: 100%;
-  height: 100%; }
+  position: relative;
+  min-height: 100%;
+  overflow: hidden; }
 
 .maincontent {
   height: 100%;
   min-height: 650px; }
 
 .container {
-  width: 940px;
   margin: 0 auto;
+  max-width: 58.75rem;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .section {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.31);
-  min-width: 940px;
-  min-height: 650px; }
+  height: 100vh;
+  min-height: 40.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
 
 .section__title {
   font-family: Gagalin, Helvetica, sans-serif;
@@ -115,6 +120,17 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .section__title--orange {
+    color: #f8b43a; }
+  .section__title--black {
+    color: #2f3234; }
+  .section__title--white {
+    color: white; }
+  .section__title--center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center; }
 
 .order-link {
   min-width: 6.125rem;
@@ -254,7 +270,6 @@ a {
   justify-content: center; }
 
 .section__title {
-  color: #f9b43b;
   font-family: 'Gagalin';
   font-size: 72px;
   font-weight: 300;
@@ -498,5 +513,109 @@ a {
 
 .team-acco__item--active .team-acco__content-wrap {
   height: auto; }
+
+.menu {
+  background-image: url("../img/bg/bg-menu.jpg");
+  background-color: #b5babd; }
+
+.menu__title {
+  position: absolute;
+  left: 5.875rem;
+  top: 7rem; }
+
+.menu-acco {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.menu-acco__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.menu-acco__trigger {
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 5rem; }
+
+.menu-acco__trigger-meat {
+  background-image: url("../img/content/bg-meat.jpg"); }
+
+.menu-acco__trigger-veg {
+  background-image: url("../img/content/bg-veg.jpg"); }
+
+.menu-acco__trigger-diet {
+  background-image: url("../img/content/bg-diet.jpg"); }
+
+.menu-acco__title {
+  color: #ffffff;
+  font-family: Gagalin, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  -webkit-transform-origin: left top 0;
+  -ms-transform-origin: left top 0;
+  transform-origin: left top 0;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+  top: 90%;
+  position: absolute;
+  width: 31.25rem; }
+
+.menu-acco__content {
+  width: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(47, 50, 52, 0.91);
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.menu-acco__text {
+  color: #ffffff;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.5rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 12%;
+  padding-left: 7%;
+  padding-right: 7%; }
+
+.menu-acco__item--active .menu-acco__trigger {
+  width: 5rem; }
+
+.menu-acco__item--active .menu-acco__title {
+  color: #f8b43a; }
+
+.menu-acco__item--active .menu-acco__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu-acco__item--active .menu-acco__content {
+  width: 33.75rem; }
 
 /*# sourceMappingURL=main.css.map */
