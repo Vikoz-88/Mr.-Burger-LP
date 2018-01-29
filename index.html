@@ -3,16 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mr. Burger</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+   <meta content="" name="author">
+   <meta content="" name="description">
+   <meta content="" name="keywords">
+	 <meta content="width=device-width, initial-scale=1" name="viewport">
    <meta content="ie=edge" http-equiv="x-ua-compatible">
    <link rel="stylesheet" href="/css/normalize.css">
    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+<!--[if lt IE 8]>
+<p class="chromeframe">
+    Похоже, что Вы используете устаревший браузер. Скачайте бесплатно новый по ссылке -
+    <a href="https://www.google.ru/chrome/">Chrome</a>
+</p>
+<![endif]-->
+
 	<div class="wrapper">
 		<div class="maincontent">
 			<section class="section hero">
 				<div class="container hero__container">
+					<!--HEADER-->
 					<header class="header">
 						<div class="header__logo">
 							<a href="#" class="logo">
@@ -35,6 +46,7 @@
 							<a href="" class="order-link">Заказать</a>
 						</div>
 					</header>
+					<!-- Hero scene -->
 					<div class="hero__content">
 						<div class="hero__img"><img src="/img/content/drops.png" alt="drops"></div>
 						<div class="hero__description">
@@ -42,13 +54,67 @@
 							<div class="hero__description-text">натуральные бургеры</div>
 						</div>
 					</div>
+					<!-- Aroow scroll -->
 					<div class="arrow">
 						<a href="" class="arrow__link"></a>
 					</div>
 			</section>
+			<!-- The best section -->
 			<section class="section best">
 				<div class="container">
-					<h2 class="section__title section__title--best">Мы лучшие</h2>
+					<div class="best__content">
+						<h2 class="section__title section__title--best">Мы лучшие</h2>
+						<ul class="best__list">
+							<li class="best__item">
+								<div class="advantage">
+									<div class="advantage__icon">
+										<svg class="icon-best icon-best__meat">
+											<use xlink:href="img/icons/sprite/sprite.svg#meat"></use>
+										</svg>
+									</div>
+									<div class="advantage__info">
+										<h5 class="advantage__title">100% свежее мясо</h5>
+										<span class="advantage__desc">Драма представляет собой деструктивный цикл. Анапест представляет собой
+											анапест.
+											Ямб неравномерен.
+										</span>
+									</div>
+								</div>
+							</li>
+
+							<li class="best__item">
+								<div class="advantage">
+									<div class="advantage__icon">
+										<svg class="icon-best icon-best__hand">
+											<use xlink:href="img/icons/sprite/sprite.svg#hand"></use>
+										</svg>
+									</div>
+									<div class="advantage__info">
+										<h5 class="advantage__title">Ручная сборка</h5>
+										<span class="advantage__desc">Драма представляет собой деструктивный цикл. Анапест представляет
+											собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+										</span>
+									</div>
+								</div>
+							</li>
+							<li class="best__item">
+								<div class="advantage">
+									<div class="advantage__icon">
+										<svg class="icon-best icon-best__natural">
+											<use xlink:href="img/icons/sprite/sprite.svg#natural"></use>
+										</svg>
+									</div>
+									<div class="advantage__info">
+										<h5 class="advantage__title">Натуральные ингредиенты</h5>
+										<span class="advantage__desc">Драма представляет собой деструктивный цикл.
+											Анапест представляет собой анапест.
+										</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
 				</div>
 			</section>
 		</div>

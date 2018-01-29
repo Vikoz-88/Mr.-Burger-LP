@@ -117,6 +117,19 @@ ul {
   .order-link:hover {
     background-color: #cb411b; }
 
+.icon-best {
+  min-width: 100%;
+  max-height: 100%; }
+
+.icon-best__meat {
+  fill: #e45028; }
+
+.icon-best__hand {
+  fill: #f8b43a; }
+
+.icon-best__natural {
+  fill: #8ac03e; }
+
 .hero {
   background-image: url("../img/bg/hero_bg.png");
   background-repeat: no-repeat;
@@ -258,7 +271,71 @@ ul {
 .section__title--best {
   color: #2f3234;
   padding: 0;
-  margin-bottom: 3.75rem; }
+  margin-bottom: 1.5625rem; }
+
+.container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.best__content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.best__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -1.25rem; }
+
+.best__item {
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 60%; }
+
+.advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.advantage__icon {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-bottom: 1.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.advantage__info {
+  text-align: center; }
+
+.advantage__title {
+  font-family: Lifehack, Helvetica, sans-serif;
+  color: #2f3234;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.0375rem;
+  margin-bottom: 7%; }
 
 .nav-point {
   position: fixed;
