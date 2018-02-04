@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../css/normalize.css);
 @font-face {
   font-family: 'Lifehack';
   src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("../fonts/lifehack_medium-webfont.woff") format("woff");
